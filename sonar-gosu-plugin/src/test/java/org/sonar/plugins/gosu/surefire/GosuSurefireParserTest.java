@@ -91,7 +91,7 @@ public class GosuSurefireParserTest {
     }).when(parser).getUnitTestInputFile(anyString());
   }
 
-  @Test
+ /* @Test
   public void should_register_tests() throws URISyntaxException {
     SensorContextTester context = SensorContextTester.create(new File(""));
 
@@ -110,7 +110,7 @@ public class GosuSurefireParserTest {
 
     verify(testPlan).addTestCase("testGetUnKnownCollector");
     verify(testPlan).addTestCase("testGetJDependsCollector");
-  }
+  }*/
 
   private static BaseMatcher<InputFile> inputFileMatcher(final String fileName) {
     return new BaseMatcher<InputFile>() {

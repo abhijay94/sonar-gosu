@@ -154,8 +154,9 @@ public class GosuSensor implements Sensor {
         complexity += value;
       }
     }
-
-    saveMetric(context, sonarFile, CoreMetrics.FILES, 1);
+    //Commenting out this line for now as it fails with v7.7
+    //https://github.com/Backelite/sonar-swift/issues/212
+    //saveMetric(context, sonarFile, CoreMetrics.FILES, 1);
     saveMetric(context, sonarFile, CoreMetrics.CLASSES, classes);
     saveMetric(context, sonarFile, CoreMetrics.FUNCTIONS, methods);
     saveMetric(context, sonarFile, CoreMetrics.COMPLEXITY, complexity);
