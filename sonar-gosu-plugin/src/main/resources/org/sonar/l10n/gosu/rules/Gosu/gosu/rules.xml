@@ -8,7 +8,13 @@
     <description><![CDATA[<p>Reports classes with nested if loops. </p>
 <p>Example of violations: </p>
 <pre>
-
+    if(condition1 == true) {
+        if(condition2 == false) {
+            if(var1 > value) {//violation
+                //do something
+            }
+        }
+    }
 </pre>
 ]]></description>
     <tag>design</tag>

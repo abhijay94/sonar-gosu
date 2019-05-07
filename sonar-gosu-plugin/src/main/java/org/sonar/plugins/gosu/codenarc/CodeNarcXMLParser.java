@@ -49,7 +49,7 @@ public final class CodeNarcXMLParser implements StaxParser.XmlStreamHandler {
     try {
       new StaxParser(handler).parse(file);
     } catch (XMLStreamException e) {
-      throw new IllegalStateException("Unabel to parse file: " + file, e);
+      throw new IllegalStateException("Unable to parse file: " + file, e);
     }
     return handler.result.build();
   }
