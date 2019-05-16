@@ -217,21 +217,6 @@
     </rule>
 
     <rule>
-        <key>org.codenarc.rule.gosu.GosuInefficientQueryAPIRule</key>
-        <severity>MAJOR</severity>
-        <name><![CDATA[Inefficient usage of Gosu Query API]]></name>
-        <internalKey><![CDATA[GosuInefficientQueryAPIRuleUse]]></internalKey>
-        <description>
-            <![CDATA[<p>Usage of Query API without .compare, particularly when .where follows after .select, as this is improper and inefficient use of the API</p>
-            <p>Examples of violations include: </p>
-<pre>
-    var result = Query.make(Policy).select().where(\ pol -> pol.PolicyType == "Commercial) //violation
-    //Should use .compare() instead of calling .where on a large data set
-</pre>
-]]></description>
-    </rule>
-
-    <rule>
         <key>org.codenarc.rule.gosu.GosuInfiniteLoopRule</key>
         <severity>MAJOR</severity>
         <name><![CDATA[Loops should not be infinite]]></name>

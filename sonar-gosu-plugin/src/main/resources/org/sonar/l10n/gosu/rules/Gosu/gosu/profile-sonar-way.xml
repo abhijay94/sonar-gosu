@@ -69,11 +69,6 @@
         </rule>
         <rule>
             <repositoryKey>gosu</repositoryKey>
-            <key>org.codenarc.rule.gosu.GosuInefficientQueryAPIRule</key>
-            <priority>MAJOR</priority>
-        </rule>
-        <rule>
-            <repositoryKey>gosu</repositoryKey>
             <key>org.codenarc.rule.gosu.GosuInfiniteLoopRule</key>
             <priority>MAJOR</priority>
         </rule>

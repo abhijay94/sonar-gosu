@@ -13,7 +13,6 @@
     "org.codenarc.rule.gosu.GosuCyclomaticComplexityRule",
     "org.codenarc.rule.gosu.GosuClassSizeRule",
     "org.codenarc.rule.gosu.GosuNestedIfRule",
-    "org.codenarc.rule.gosu.GosuInefficientQueryAPIRule",
     "org.codenarc.rule.gosu.GosuInfiniteLoopRule"
   ]
 }
