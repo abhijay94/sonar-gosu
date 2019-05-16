@@ -226,4 +226,34 @@
 ]]></description>
     </rule>
 
+    <rule>
+        <key>org.codenarc.rule.gosu.GosuInvalidCatchRule</key>
+        <severity>MAJOR</severity>
+        <name><![CDATA[Neither Throwables nor Errors should be caught, only exceptions]]></name>
+        <internalKey><![CDATA[GosuInvalidCatch]]></internalKey>
+        <description>
+            <![CDATA[<p>Catching Throwable or errors is a bad coding practice. Only Exceptions should be caught.</p>
+]]></description>
+    </rule>
+
+    <rule>
+        <key>org.codenarc.rule.gosu.GosuNoDeclarationsInInterfacesRule</key>
+        <severity>MINOR</severity>
+        <name><![CDATA[Constants should not be defined in interface]]></name>
+        <internalKey><![CDATA[GosuNoDeclarationsInInterfaces]]></internalKey>
+        <description>
+            <![CDATA[<p>Do not define constant variables in an interface.</p>
+]]></description>
+    </rule>
+
+    <rule>
+        <key>org.codenarc.rule.gosu.GosuNoEmptyMethodsRule</key>
+        <severity>MINOR</severity>
+        <name><![CDATA[Methods should not be empty]]></name>
+        <internalKey><![CDATA[GosuNoEmptyMethods]]></internalKey>
+        <description>
+            <![CDATA[<p>Do not write a godu method that is empty. Please delete the empty methods.</p>
+]]></description>
+    </rule>
+
 </rules>

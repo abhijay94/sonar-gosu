@@ -72,5 +72,20 @@
             <key>org.codenarc.rule.gosu.GosuInfiniteLoopRule</key>
             <priority>MAJOR</priority>
         </rule>
+        <rule>
+            <repositoryKey>gosu</repositoryKey>
+            <key>org.codenarc.rule.gosu.GosuInvalidCatchRule</key>
+            <priority>MAJOR</priority>
+        </rule>
+        <rule>
+            <repositoryKey>gosu</repositoryKey>
+            <key>org.codenarc.rule.gosu.GosuNoDeclarationsInInterfacesRule</key>
+            <priority>MINOR</priority>
+        </rule>
+        <rule>
+            <repositoryKey>gosu</repositoryKey>
+            <key>org.codenarc.rule.gosu.GosuNoEmptyMethodsRule</key>
+            <priority>MINOR</priority>
+        </rule>
     </rules>
 </profile>
