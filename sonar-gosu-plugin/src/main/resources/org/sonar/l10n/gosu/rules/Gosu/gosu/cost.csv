@@ -12,3 +12,8 @@ org.codenarc.rule.gosu.GosuIllegalImportsRule;linear;5min
 org.codenarc.rule.gosu.GosuInternalImportsRule;linear;10min
 org.codenarc.rule.gosu.GosuJavaStyleLineEndingRule;linear;10min
 org.codenarc.rule.gosu.GosuObjectEqualityRule;linear;10min
+org.codenarc.rule.gosu.GosuInfiniteLoopRule;linear;10min
+org.codenarc.rule.gosu.GosuInvalidCatchRule;linear;10min
+org.codenarc.rule.gosu.GosuNoDeclarationsInInterfacesRule;linear;5min
+org.codenarc.rule.gosu.GosuNoEmptyMethodsRule;linear;5min
+rg.codenarc.rule.gosu.GosuNoExceptionsInFinallyRule;linear;5min
