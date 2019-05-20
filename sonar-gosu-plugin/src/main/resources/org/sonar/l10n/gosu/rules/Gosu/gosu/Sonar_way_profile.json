@@ -16,6 +16,7 @@
     "org.codenarc.rule.gosu.GosuInfiniteLoopRule",
     "org.codenarc.rule.gosu.GosuInvalidCatchRule",
     "org.codenarc.rule.gosu.GosuNoDeclarationsInInterfacesRule",
-    "org.codenarc.rule.gosu.GosuNoEmptyMethodsRule"
+    "org.codenarc.rule.gosu.GosuNoEmptyMethodsRule",
+    "org.codenarc.rule.gosu.GosuNoExceptionsInFinallyRule"
   ]
 }

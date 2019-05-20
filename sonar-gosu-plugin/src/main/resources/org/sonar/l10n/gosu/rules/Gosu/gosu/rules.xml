@@ -252,7 +252,17 @@
         <name><![CDATA[Methods should not be empty]]></name>
         <internalKey><![CDATA[GosuNoEmptyMethods]]></internalKey>
         <description>
-            <![CDATA[<p>Do not write a godu method that is empty. Please delete the empty methods.</p>
+            <![CDATA[<p>Do not write a gosu method that is empty. Please delete the empty methods.</p>
+]]></description>
+    </rule>
+
+    <rule>
+        <key>org.codenarc.rule.gosu.GosuNoExceptionsInFinallyRule</key>
+        <severity>MINOR</severity>
+        <name><![CDATA[Finally should not throw anything]]></name>
+        <internalKey><![CDATA[GosuNoExceptionsInFinally]]></internalKey>
+        <description>
+            <![CDATA[<p>Finally should not throw anything</p>
 ]]></description>
     </rule>
 
